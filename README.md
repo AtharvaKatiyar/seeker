@@ -158,16 +158,6 @@ seeker is built around three principles:
 
 ---
 
-## Future improvements (recommended)
-
-- Configurable thresholds via settings file
-- Persistent event history/log export
-- Per-process whitelist/blacklist management
-- Better process identity matching (name + command + parent context)
-- Optional charts for trend visualization
-
----
-
 ## Summary
 
 **seeker** is a focused memory-watch tool that closes the gap between "something is wrong" and "here is exactly what to do now." It monitors, interprets, and enables intervention in one compact desktop workflow.
