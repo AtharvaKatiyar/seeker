@@ -12,7 +12,6 @@ def start_core():
 
 
 if __name__ == "__main__":
-    # Start core in background thread
     core_thread = threading.Thread(target=start_core, daemon=True)
     core_thread.start()
 
@@ -20,7 +19,6 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     widget = LogWidget()
 
-    # IMPORTANT: give UI access to handler
     set_widget(widget)
 
     widget.show()

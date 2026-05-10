@@ -6,10 +6,10 @@ last_event_time = {
     "SPIKE": 0,
     "WARNING": 0,
     "DANGER": 0,
-    "NEW_HEAVY": 0   # add this
+    "NEW_HEAVY": 0   
 }
 
-COOLDOWN = 5  # seconds
+COOLDOWN = 5  
 
 SAFE_PROCESSES = [
     "systemd",

@@ -10,6 +10,37 @@ It does this by continuously sampling system memory and process-level usage, cla
 
 ---
 
+## Install (recommended)
+
+This is the easiest path for Linux users: download the prebuilt binary and run it.
+
+1. Install Qt runtime dependencies (Ubuntu/Debian):
+
+  ```bash
+  sudo apt-get update
+  sudo apt-get install -y libxcb-cursor0 libxcb-xinerama0 libxkbcommon-x11-0
+  ```
+
+  If you are on another distro, install the equivalent `libxcb` and `libxkbcommon` packages.
+
+2. Download the latest `seeker` binary from GitHub Releases.
+
+3. Make it executable and run it:
+
+  ```bash
+  chmod +x seeker
+  ./seeker
+  ```
+
+4. Optional: install system-wide:
+
+  ```bash
+  sudo install -m 755 seeker /usr/local/bin/seeker
+  seeker
+  ```
+
+---
+
 ## Essence of the project
 
 seeker is not just a monitor. It is a **decision-oriented observer**:
