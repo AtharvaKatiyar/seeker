@@ -1,5 +1,9 @@
 # seeker
 
+**Live site → [seeker-coral-phi.vercel.app](https://seeker-coral-phi.vercel.app)**
+
+---
+
 **seeker** is a real-time desktop memory sentinel for Linux that watches system RAM behavior, detects risky patterns, and surfaces actionable alerts through a lightweight floating UI.
 
 At its core, seeker answers one practical question:
